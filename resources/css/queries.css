@@ -1,0 +1,145 @@
+@media (max-width: 768px) {
+  .header__content {
+    display: inline-block;
+    width: 100%;
+  }
+
+  .header__flex {
+    display: inline-block;
+    margin-left: 10%;
+  }
+
+  #header .logo {
+    text-align: center;
+  }
+
+  #header img {
+    display: none;
+  }
+
+  #section--1 .about-section {
+    display: block;
+  }
+
+  .skills {
+    display: block;
+  }
+
+  #section--5 {
+    margin-bottom: 40%;
+  }
+
+  .contact {
+    display: inline-block;
+  }
+
+  .message-me input {
+    width: 80%;
+  }
+
+  footer .footer {
+    display: inline-block;
+    margin-left: 15%;
+  }
+
+  footer .other--links {
+    margin-left: 10%;
+  }
+
+  footer .designer {
+    text-align: center;
+  }
+}
+
+@media (max-width: 652px) {
+  .header__flex {
+    margin-left: 5%;
+  }
+
+  footer .footer {
+    margin-left: 0;
+  }
+
+  footer .other--links {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  #section--1,
+  #section--2,
+  #section--3,
+  #section--4,
+  #section--5 {
+    padding-top: 19%;
+  }
+
+  /* HEADER */
+  #header {
+    height: 70vh;
+  }
+  #header .nav {
+    display: none;
+  }
+
+  #header img {
+    display: none;
+  }
+
+  #header .logo {
+    text-align: left;
+  }
+
+  #header .dropdown {
+    float: right;
+    display: block;
+    margin-top: -13%;
+    margin-right: 2%;
+  }
+
+  #header .dropdown button i {
+    font-size: 150%;
+  }
+
+  /* SECTION 1 */
+  #section--1 .about-section {
+    display: block;
+  }
+
+  .about-section h3 {
+    text-align: center;
+  }
+
+  /* SECTION 3 */
+  .skills {
+    display: block;
+  }
+
+  /* SECTION 4 */
+  #section--4 .nav {
+    margin-left: 12%;
+    padding-bottom: 8%;
+  }
+
+  /* SECTION 5 */
+  #section--5 {
+    margin-bottom: 40%;
+  }
+
+  .contact {
+    display: inline-block;
+  }
+
+  .message-me input {
+    width: 80%;
+  }
+
+  /* FOOTER */
+  footer .footer {
+    display: inline-block;
+  }
+
+  footer .designer {
+    text-align: center;
+  }
+}
